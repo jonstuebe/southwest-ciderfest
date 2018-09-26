@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "miso";
+  src: url("fonts/Miso-Bold.woff2") format("woff2"),
+    url("fonts/Miso-Bold.woff") format("woff"),
+    url("fonts/Miso-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "miso";
+  src: url("fonts/Miso.woff2") format("woff2"),
+    url("fonts/Miso.woff") format("woff"),
+    url("fonts/Miso.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+:root {
+  --color-tan: #d4bb98;
+  --color-green: #01b6a2;
+  --color-red: #da5037;
+  --color-white: #ffffff;
+  --color-dark-green: #1a1a1a;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-dark-green);
+}
+
+.logo {
+  min-width: 1vw;
+  max-width: 870px;
+  margin: 0 auto;
+  background-color: #ccc;
+}
+
+.logo__mark {
+  background-color: red;
+}
