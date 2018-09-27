@@ -62,7 +62,7 @@ body {
   opacity: 0;
 }
 
-.fontNotLoaded .nav__item a, .fontLoaded .nav__item a {
+.fontLoaded .nav__item a {
   opacity: 1;
 }
 

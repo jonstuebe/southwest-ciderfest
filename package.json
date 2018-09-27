@@ -2,6 +2,7 @@
   "name": "parcel-sandbox",
   "version": "1.0.0",
   "description": "Simple Parcel Sandbox",
+  "public-url": "https://happy-haibt-fcf679.netlify.com",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
