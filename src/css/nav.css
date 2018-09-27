@@ -17,7 +17,7 @@
 .nav__item a {
   font-family: "miso";
   font-weight: bold;
-  color: var(--color-tan);
+  color: #d4bb98;
   font-size: 2.5rem;
   text-decoration: none;
   margin-right: 50px;
@@ -65,5 +65,5 @@
 }
 
 .nav__item--tickets a:hover {
-  color: var(--color-tan);
+  color: #d4bb98;
 }
