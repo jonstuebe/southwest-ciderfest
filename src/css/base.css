@@ -1,0 +1,20 @@
+:root {
+  --color-tan: #d4bb98;
+  --color-green: #01b6a2;
+  --color-red: #da5037;
+  --color-white: #ffffff;
+  --color-dark-green: #1a1a1a;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-dark-green);
+  overflow-x: hidden;
+}

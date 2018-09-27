@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "miso";
+  src: url("../fonts/Miso-Bold.woff2") format("woff2"),
+    url("../fonts/Miso-Bold.woff") format("woff"),
+    url("../fonts/Miso-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "miso";
+  src: url("../fonts/Miso.woff2") format("woff2"),
+    url("../fonts/Miso.woff") format("woff"),
+    url("../fonts/Miso.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}

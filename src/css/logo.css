@@ -1,0 +1,36 @@
+.logo {
+  padding: 100px 50px 0;
+  pointer-events: none;
+  min-width: 1vw;
+  max-width: 870px;
+  margin: 0 auto;
+}
+
+.logo__wrapper {
+  width: 100%;
+  padding-top: calc(513 / 860 * 100%);
+  position: relative;
+}
+
+.logo__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  animation-delay: 350ms;
+}
+
+.logo__banner {
+  background-image: url("../svg/banner.svg");
+}
+
+.logo__text {
+  background-image: url("../svg/text.svg");
+}
+
+.logo__mark {
+  background-image: url("../svg/mark.svg");
+}

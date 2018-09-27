@@ -1,0 +1,63 @@
+.nav {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.nav__item {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav__item a {
+  font-family: "miso";
+  font-weight: bold;
+  color: var(--color-tan);
+  font-size: 2.5rem;
+  text-decoration: none;
+  margin-right: 50px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  transition: all 250ms ease-in-out;
+  opacity: 0;
+}
+
+.fontLoaded .nav__item a {
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .nav__item a {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav__item a {
+    font-size: 1.25rem;
+    letter-spacing: 4px;
+  }
+}
+
+@media (max-width: 700px) {
+  .nav__item {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .nav__item a {
+    font-size: 2rem;
+    letter-spacing: 5px;
+  }
+}
+
+.nav__item--tickets a {
+  color: #ffffff;
+}
+
+.nav__item a:hover {
+  color: #ffffff;
+}
+
+.nav__item--tickets a:hover {
+  color: var(--color-tan);
+}
