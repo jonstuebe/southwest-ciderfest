@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "animate.css": "^3.7.0",
-    "css": "^2.2.4",
     "normalize.css": "^8.0.0",
     "onfontready": "^1.1.0",
     "rimraf": "^2.6.2"

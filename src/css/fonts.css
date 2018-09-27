@@ -1,17 +1,15 @@
 @font-face {
-  font-family: "miso";
-  src: url("../fonts/Miso-Bold.woff2") format("woff2"),
-    url("../fonts/Miso-Bold.woff") format("woff"),
-    url("../fonts/Miso-Bold.ttf") format("truetype");
+  font-family: 'miso';
+  src: url('../fonts/miso-bold-webfont.woff2') format('woff2'),
+       url('../fonts/miso-bold-webfont.woff') format('woff');
   font-weight: bold;
-  font-style: italic;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "miso";
-  src: url("../fonts/Miso.woff2") format("woff2"),
-    url("../fonts/Miso.woff") format("woff"),
-    url("../fonts/Miso.ttf") format("truetype");
+  font-family: 'miso';
+  src: url('../fonts/miso-webfont.woff2') format('woff2'),
+       url('../fonts/miso-webfont.woff') format('woff');
   font-weight: normal;
-  font-style: italic;
+  font-style: normal;
 }
