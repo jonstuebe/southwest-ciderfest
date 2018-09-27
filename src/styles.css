@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "miso";
+  src: url("fonts/Miso-Bold.woff2") format("woff2"),
+    url("fonts/Miso-Bold.woff") format("woff"),
+    url("fonts/Miso-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "miso";
+  src: url("fonts/Miso.woff2") format("woff2"),
+    url("fonts/Miso.woff") format("woff"),
+    url("fonts/Miso.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+:root {
+  --color-tan: #d4bb98;
+  --color-green: #01b6a2;
+  --color-red: #da5037;
+  --color-white: #ffffff;
+  --color-dark-green: #1a1a1a;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-dark-green);
+  overflow-x: hidden;
+}
+
+.container {}
+
+.nav {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.nav__item {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav__item a {
+  font-family: "miso";
+  font-weight: bold;
+  color: var(--color-tan);
+  font-size: 2.5rem;
+  text-decoration: none;
+  margin-right: 50px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  transition: all 250ms ease-in-out;
+  opacity: 0;
+}
+
+.fontLoaded .nav__item a {
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .nav {
+    
+  }
+  .nav__item a {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav__item a {
+    font-size: 1.25rem;
+    letter-spacing: 4px;
+  }
+}
+
+@media (max-width: 700px) {
+  .nav__item {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .nav__item a {
+    font-size: 2rem;
+    letter-spacing: 5px;
+  }
+}
+
+.nav__item--tickets a {
+  color: #ffffff;
+}
+
+.nav__item a:hover {
+  color: #ffffff;
+}
+
+.nav__item--tickets a:hover {
+  color: var(--color-tan);
+}
+
+.logo {
+  padding: 100px 50px 0;
+  pointer-events: none;
+  min-width: 1vw;
+  max-width: 870px;
+  margin: 0 auto;
+}
+
+.logo__wrapper {
+  width: 100%;
+  padding-top: calc(513 / 860 * 100%);
+  position: relative;
+}
+
+.logo__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  animation-delay: 350ms;
+}
+
+.logo__banner {
+  background-image: url(svg/banner.svg);
+}
+
+.logo__text {
+  background-image: url(svg/text.svg);
+}
+
+.logo__mark {
+  background-image: url(svg/mark.svg);
+}

@@ -1,14 +1,68 @@
 <html>
 
 <head>
-	<title>Parcel Sandbox</title>
+	<title>Southwest Cider Fest</title>
 	<meta charset="UTF-8" />
-	<link rel="stylesheet" src="assets/styles.css" />
+
+	<meta name="description" content="Description Here">
+	<meta name="robots" content="index, follow">
+
+	<meta property="og:type" content="place">
+	<meta property="og:title" content="Southwest Cider Fest">
+	<meta property="og:url" content="http://southwestciderfest.com/">
+	<meta property="og:image" content="http://southwestciderfest.com/images/event.png">
+	<meta property="place:location:latitude" content="33.414094">
+	<meta property="place:location:longitude" content="-111.836465">
+	<meta property="og:description" content="Description Here" />
+
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org/",
+			"@type": "Event",
+			"name": "Southwest Ciderfest",
+			"description": "",
+			"startDate": "2018-11-09",
+			"endDate": "2018-11-10",
+			"location": {
+				"@type": "Place",
+				"name": "Cider Corps",
+				"address": {
+					"streetAddress": "31 S Robson #103",
+					"addressLocality": "Mesa",
+					"addressRegion": "AZ"
+				}
+			}
+		}
+	</script>
+
 </head>
 
 <body>
-	<div class="logo">
-		<div class="logo__mark"><image src="assets/svg/mark.svg" /></div>
+	<div class="container">
+
+		<div class="logo">
+			<div class="logo__wrapper">
+				<div class="logo__inner logo__mark animated fadeInDown slow"></div>
+				<div class="logo__inner logo__text animated fadeInDown"></div>
+				<div class="logo__inner logo__banner animated fadeInUp"></div>
+			</div>
+		</div>
+
+		<ul class="nav">
+			<li class="nav__item">
+				<a href="#">Facebook</a>
+			</li>
+			<li class="nav__item">
+				<a href="#">Instagram</a>
+			</li>
+			<li class="nav__item">
+				<a href="https://www.eventbrite.com/e/southwest-cider-fest-tickets-50715724096">Event Info</a>
+			</li>
+			<li class="nav__item nav__item--tickets">
+				<a href="https://www.eventbrite.com/e/southwest-cider-fest-tickets-50715724096">Buy Tickets</a>
+			</li>
+		</ul>
+
 	</div>
 
 	<script src="src/index.js"></script>

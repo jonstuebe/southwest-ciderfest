@@ -8,7 +8,10 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "aos": "2.3.3"
+    "animate.css": "^3.7.0",
+    "aos": "2.3.3",
+    "normalize.css": "^8.0.0",
+    "onfontready": "^1.1.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.6.1"

@@ -1,3 +1,14 @@
-import AOS from "aos";
+import onfontready from "onfontready"
 
-AOS.init();
+import "normalize.css";
+import "animate.css";
+import "./styles.css";
+
+onfontready('miso', () => {
+  document.documentElement.className += "fontLoaded";
+}, {
+    timeoutAfter: 2500,
+    onTimeout: () => {
+      document.documentElement.className += "fontNotLoaded";
+    }
+  })
