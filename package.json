@@ -1,7 +1,7 @@
 {
-  "name": "parcel-sandbox",
-  "version": "1.0.0",
-  "description": "Simple Parcel Sandbox",
+  "name": "southwest-ciderfest",
+  "version": "1.1.0",
+  "description": "Site for Soutwest Ciderfest",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
